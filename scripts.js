@@ -1,0 +1,19 @@
+r1=Math.floor(Math.random()*255)
+r2=Math.floor(Math.random()*255)
+r3=Math.floor(Math.random()*255)
+u=document.getElementById("container")
+a=document.getElementById("my")
+b=document.getElementById("name")
+c=document.getElementById("is")
+d=document.getElementById("pritam")
+e=document.getElementById("nandy")
+f=document.getElementById("bt")
+f.onclick=function(){
+    a.style.opacity=1
+    b.style.opacity=1
+    c.style.opacity=1
+    d.style.opacity=1
+    e.style.opacity=1
+    f.style.opacity=0
+    u.style.backgroundColor=`rgb(${r1},${r2},${r3})`
+}
